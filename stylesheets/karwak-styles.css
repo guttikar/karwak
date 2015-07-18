@@ -1,0 +1,339 @@
+/* Styles specific to Karwak Website */
+body{
+        font-family:'PT sans',Helvetica,Arial,sans-serif;
+        font-weight:400;
+        background-color:rgba(0,0,0,0.02);
+      }
+      .full-width {
+         width: 100%;
+         margin-left: auto;
+         margin-right: auto;
+         max-width: initial;
+      }
+      .strong {
+        font-weight: bold;
+      }
+      .uppercase {
+        text-transform: uppercase;
+      }
+      .top-bar-section {
+        margin-right: 2em;
+      }
+      .top-bar-section ul li {
+        background-color: inherit;
+        padding-top: 0.8em;
+        margin: 0 1em 0 1em;
+      }
+      .top-bar-section ul li.fb a {
+        text-indent: -999em;
+        font-size: 0.1em;
+        background: url(../../pngs/fb.png) no-repeat  !important; 
+      }
+      .top-bar-section ul li.insta a {
+        text-indent: -999em;
+        font-size: 0.1em;
+        background: url(../../pngs/insta.png) no-repeat !important; 
+      }
+      /*
+      .button-group .button{
+        font-family: 'PT Sans caption', Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.103em !important;
+        background: transparent;
+      }
+      
+      .button-group .button:focus, .button:hover {
+        color: #faba18;
+      }
+      .button-group {
+        padding-top: 1em;
+      }
+      
+      .button-group a{
+        color:rgba(0,0,0,1);
+        background-color:transparent;
+      }
+      
+      .button-group a:hover{
+        color: #faba1a;
+        background-color:transparent;
+      }
+
+      .button-group{
+        float:none;
+      }
+*/
+      .navbar {
+        display: block;
+        clear: both;
+        float: left;
+        background-color: #ffffff;
+        margin-top: 2.1em;
+        z-index: 1000;
+        margin-bottom: 0.4em;
+        padding-top: 0.2em;
+      }
+      @media only screen and (max-width: 40.063em) {
+        .navbar {padding-top: 0; margin-top: 0;}
+      }
+      .navbar li {
+         padding: 0 !important;
+      }
+      .navbar .button{
+        font-family: 'PT Sans caption', Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.103em;
+        background: transparent;
+        padding-bottom: 0;
+      }
+      
+      .navbar .button:focus, .button:hover {
+        color: #faba18;
+      }
+      
+      .navbar a{
+        color:rgba(0,0,0,1);
+        background-color:transparent;
+        padding-bottom: 0;
+      }
+      
+      .navbar a:hover{
+        color: #faba1a;
+        background-color:transparent;
+      }
+
+      .navbar {
+        float:none;
+      }    
+
+      @media only screen and (min-width: 40.063em) {
+        .button-group{float:right;}
+      }
+      .namelogo {
+        padding-top: 0.4em;
+      }
+      /*.namelogo{padding:20px 10px 0px 10px; }*/
+      
+      /*@media only screen and (min-width: 40.063em) {
+        .namelogo{padding-bottom:20px;}
+      }
+      .namelogo h1{
+        font-size:1.5em;
+        font-weight:600;
+        text-align:center;
+      }
+      @media only screen and (min-width: 40.063em) {
+        .namelogo h1{font-size:16px;text-align:left;}
+      }
+      @media only screen and (min-width: 64.063em) {
+        .namelogo h1{font-size:24px;text-align:left;}
+      }
+      */
+      .slick-prev:before, .slick-next:before{
+        font-family: sans-serif;
+        padding-top: 1.125em;
+      }
+    /*  .slick-prev:before{
+      background: url('../pngs/left-angle.png') no-repeat;
+      }*/
+      .cover-slider {
+        width: 100%
+      }
+
+      @media only screen and (max-width: 40.063em) {
+        .cover-slider { margin-top: 7.7em;}
+      }
+      .cover-slider .slick-prev{
+        left: 40px;
+      }
+      .cover-slider .slick-next{
+        right: 40px;
+      }
+      
+  /*
+    .coverslider .slide1,.slide2,.slide3,.slide4,.slide5,.slide6 {
+      background-size:cover;
+    }*/
+
+    .cover-slider .slide1 {
+      background: url('../../jpgs/nature1.jpg') no-repeat;
+    }
+
+    .cover-slider .slide2 {
+      background: url('../../jpgs/nature2.jpg') no-repeat;
+    }
+    .cover-slider .slide3 {
+      background: url('../../jpgs/nature3.jpg') no-repeat;
+    }
+    .cover-slider .slide4 {
+      background: url('../../jpgs/nature4.jpg') no-repeat;
+    }
+    .cover-slider .slide5 {
+      background: url('../../jpgs/nature5.jpg') no-repeat;
+    }
+    .cover-slider .slide6 {
+      background: url('../../jpgs/nature6.jpg') no-repeat;
+    }
+    
+    .intro-text{
+      padding-top:12.5%;
+      padding-bottom: 15.5%;
+      color:rgba(255,255,255,1);
+      text-align:center;
+    }
+    /*
+    @media only screen and (min-width: 40.063em) {
+      .intro-text{padding-top:25%;}
+    }@media only screen and (min-width: 64.063em) {
+      .intro-text{padding-top:18%;}
+    }*/
+    .intro-text p{
+      font-family:'PT Sans Bold', sans-serif;
+      font-size:44px;
+    }
+    .after-header {
+      margin-top: 5em;
+    }
+    @media only screen and (max-width: 40.063em) {
+      .after-header {margin-top: -9em; padding-top: 8em;}
+    }
+    .about {
+      margin-top: -2em;
+      padding-top: 3em;
+    }
+    .work,.contact {
+      padding: 5em 0 0 0;
+    }
+    .about h1, h2, h3, h4 {
+      text-transform: uppercase;
+    }
+    .about h1 {
+      color: black;
+      font-weight: bold;
+      font-size: 1.8em;
+    }
+    .about h4 {
+      color: black;
+      font-weight: bold;
+      font-size: 1em;
+    }
+    .about img {
+      width:17.5em;
+      height:17.5em;
+      border-radius:9em;
+      -webkit-border-radius:9em;
+      -moz-border-radius:9em;
+      margin-bottom: 3em;
+
+      }
+    .about .button { 
+     border: 1px black ridge; 
+     background: transparent;
+     color: black; 
+        
+    }
+    .recycled {
+      color: #faba18;
+      font-size: 1.3em;
+      font-family: "PT Sans Caption", sans-serif;
+    }
+
+    .process, .changing {
+      padding-top: 2em;
+    }
+    .process h1 {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1.5em;
+    }
+    .process .panel{
+      background: #ccc; 
+      margin: 2em;
+      padding: 10em;
+    }
+    .changing h1 {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      color: #faba18;
+    }
+    .changing .panel{
+      background: transparent; 
+      margin: 2em;
+      padding: 10em;
+    }
+
+    .testimonial {
+      padding: 1.5em;
+    }
+    .testimonial .panel {
+      background: transparent;
+      padding: 3em;
+      border: none;
+    }
+    .dedede {background-color: #dedede}
+    .haldi {background-color: #faba18}
+
+    .ccc {background-color: #ccc}
+    .work img:hover{
+      opacity:0.5;
+      -webkit-transition:0.3s ease;
+      -moz-transition:0.3s ease;
+      -ms-transition:0.3s ease;
+      -o-transition:0.3s ease;
+      transition:0.3s ease;
+    }
+    .work li{
+      height:140px;
+      overflow:hidden;
+    }
+    .team {
+      margin-top: 0 !important;
+    }
+    .team row::before {
+      content: '>>>>>>>>>>';
+      background-color: #f84;
+    }
+    .team h1 {
+      font-size: 1.4em;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .team h2 {
+      font-family: "PT Sans",sans-serif;
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+    .team h3 {
+      font-family: "PT Sans",sans-serif;
+      font-size: 1.1em;
+      color: #888; 
+    }
+    .team .row {
+      margin-top: 5em;
+    }
+    .team img {
+      width:15.5em;
+      height:15.5em;
+      border-radius:9em;
+      -webkit-border-radius:9em;
+      -moz-border-radius:9em;
+      margin-bottom: 3em;
+
+      }
+      /*hr{
+        border:0;height:1px;
+        background-image:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+        background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+        background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+        background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+        opacity:0.8;
+        }
+        footer{
+          padding:80px 0 10px 0;
+        }
+        footer a:hover{
+          color:rgba(0,0,0,0.4);background-color:transparent;
+        }*/    }
